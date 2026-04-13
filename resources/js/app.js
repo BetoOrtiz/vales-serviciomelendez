@@ -16,8 +16,8 @@ createInertiaApp({
     },
     setup({ el, App, props, plugin }) {
         return createApp({ render: () => h(App, props) })
-            .component("font-awesome-icon", FontAwesomeIcon)
-            .use(plugin)
+                .component("font-awesome-icon", FontAwesomeIcon)
+                .use(plugin)
             .use(Notifications)
             .mixin({ methods: { route } })
             .mount(el);
