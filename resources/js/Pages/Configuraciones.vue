@@ -241,7 +241,19 @@ const clearPhotoFileInput = () => {
                                 {{ configuracion.clave }}
                             </td>
                             <td class="px-4 py-1">
-                                {{ configuracion.valor }}
+                                <template v-if="configuracion.tipo === 'Imagen'">
+                                    <img
+                                        :src="configuracion.valor"
+                                        alt="Configuración"
+                                        class="h-16 w-16 object-contain rounded border"
+                                    />
+                                    <div class="text-xs text-slate-500 mt-1">
+                                        {{ configuracion.valor }}
+                                    </div>
+                                </template>
+                                <template v-else>
+                                    {{ configuracion.valor }}
+                                </template>
                             </td>
                             <td
                                 class="px-4 py-1 text-center sticky right-0 bg-slate-200/50 border-l border-slate-200"
