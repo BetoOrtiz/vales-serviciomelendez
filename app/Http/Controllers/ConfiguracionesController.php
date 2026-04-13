@@ -131,15 +131,33 @@ class ConfiguracionesController extends Controller
                     $configuracion->valor = "/config/img/" . $fileName;
 
                     if ($configuracion->clave == "Acceso / Logo") {
-                        // Modifica el logo de acceso al sistema en el archivo .env
-                        $file = file_get_contents(base_path(".env"));
-                        $file = str_replace(
-                            "APP_LOGO=\"" . env("APP_LOGO") . "\"",
-                            "APP_LOGO=\"" . $configuracion->valor . "\"",
-                            $file
+                        $envPath = base_path('.env');
+                        $envContent = file_get_contents($envPath);
+
+                        $envContent = preg_replace(
+                            '/^APP_LOGO=.*$/m',
+                            'APP_LOGO="' . $configuracion->valor . '"',
+                            $envContent
                         );
-                        file_put_contents(base_path(".env"), $file);
+
+                        file_put_contents($envPath, $envContent);
                     }
+
+                    if ($configuracion->clave == "Barra de Navegación / Logo") {
+                        $envPath = base_path('.env');
+                        $envContent = file_get_contents($envPath);
+
+                        $envContent = preg_replace(
+                            '/^APP_LOGO_NAV=.*$/m',
+                            'APP_LOGO_NAV="' . $configuracion->valor . '"',
+                            $envContent
+                        );
+
+                        file_put_contents($envPath, $envContent);
+                    }
+
+\Artisan::call('config:clear');
+\Artisan::call('config:cache');
                     if ($configuracion->clave == "Barra de Navegación / Logo") {
                         // Modifica el logo de acceso al sistema en el archivo .env
                         $file = file_get_contents(base_path(".env"));
