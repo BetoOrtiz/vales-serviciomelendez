@@ -23,7 +23,9 @@
         "prettier": "^2.7.1",
         "tailwindcss": "^3.4.17",
         "vue": "^3.2.31",
-        "vue-loader": "^17.0.0"
+        "vue-loader": "^17.0.0",
+        "webpack": "^5.105.0",
+        "webpack-cli": "^4.10.0"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.1.1",

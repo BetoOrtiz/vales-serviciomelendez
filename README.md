@@ -24,7 +24,7 @@ Sistema Servicio Meléndez
 
 2. Entrar en el directorio del repositorio:
 
-    ```
+    ``` 
     $ cd vales-serviciomelendez
     ```
 

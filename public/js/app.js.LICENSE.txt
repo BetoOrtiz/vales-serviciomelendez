@@ -14,15 +14,7 @@
  * @license  MIT
  */
 
-/*!
-* v-offline v3.5.0
-* (c) 2024 Vinayak Kulkarni
-* @license MIT
-*/
-
-/*! #__NO_SIDE_EFFECTS__ */
-
-/*! Axios v1.9.0 Copyright (c) 2025 Matt Zabriskie and contributors */
+/*! Axios v1.15.0 Copyright (c) 2026 Matt Zabriskie and contributors */
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
@@ -38,19 +30,31 @@
  */
 
 /**
-* @vue/runtime-core v3.5.13
+* @vue/compiler-core v3.5.32
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
 
 /**
-* @vue/runtime-dom v3.5.13
+* @vue/compiler-dom v3.5.32
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
 
 /**
-* @vue/shared v3.5.13
+* @vue/runtime-core v3.5.32
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/runtime-dom v3.5.32
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/shared v3.5.32
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
