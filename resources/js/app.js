@@ -6,7 +6,7 @@ import FontAwesomeIcon from "@/Components/fontawesome-icons";
 import Notifications from 'notiwind';
 import { VOffline } from 'v-offline';
 
-const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Lhuna-Stack';
+const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Vales Servcio Melendez';
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,

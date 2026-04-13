@@ -164,7 +164,7 @@ const menu = [
                                 </template>
                             </VOffline>
                             <!-- Titulo menu celular -->
-                            Lhuna-Stack<span
+                            Vales Servcio Melendez<span
                                 class="font-light text-slate-500 mx-2"
                                 >/</span
                             ><span
@@ -281,7 +281,7 @@ const menu = [
                                 class="text-xl font-bold text-slate-900 flex-1 text-center"
                             >
                                 <!-- Titulo menu lateral oculto -->
-                                Lhuna-Stack
+                                Vales Servcio Melendez
                             </h2>
                             <div class="ml-auto">
                                 <button
@@ -376,7 +376,7 @@ const menu = [
                                 class="text-xl font-bold text-slate-900 flex-1 text-center"
                             >
                                 <!-- Titulo menu lateral oculto -->
-                                Lhuna-Stack
+                                Vales Servcio Melendez
                             </h2>
                             <button
                                 class="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:bg-slate-100 focus:text-slate-500 transition"
