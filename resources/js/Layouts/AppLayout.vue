@@ -281,7 +281,7 @@ const menu = [
                                 class="text-xl font-bold text-slate-900 flex-1 text-center"
                             >
                                 <!-- Titulo menu lateral oculto -->
-                                Servcio Melendez
+                                Vales Servcio Melendez
                             </h2>
                             <div class="ml-auto">
                                 <button
